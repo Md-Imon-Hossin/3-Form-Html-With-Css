@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+small,
+strong,
+input,
+b,
+label {
+  font-family: "Roboto", sans-serif;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+input {
+  display: inline-block;
+}
+/* === form make ==== */
+.name {
+  margin-top: 30px;
+}
+.name .first-name {
+  margin-left: 100px;
+}
+.name .first-name label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+}
+.name .first-name input {
+  width: 250px;
+  height: 27px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.name .last-name {
+  margin-right: 100px;
+}
+.name .last-name label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+}
+.name .last-name input {
+  width: 250px;
+  height: 27px;
+  padding: 0 10px;
+  margin-top: 6px;
+}
+.email {
+  margin-left: 100px;
+}
+.email label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+  display: block;
+}
+.email input {
+  width: 720px;
+  height: 45px;
+  padding: 0 10px;
+  margin-top: -10px;
+  display: block;
+}
+.main-password {
+  margin-top: 12px;
+}
+.password {
+  margin-left: 100px;
+}
+.password label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  display: block;
+}
+.password input {
+  width: 250px;
+  height: 27px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.confirm-password {
+  margin-right: 100px;
+}
+.confirm-password label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  display: block;
+}
+.confirm-password input {
+  width: 250px;
+  height: 27px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.main-gender {
+  margin-top: 10px;
+}
+.gender {
+  margin-left: 100px;
+}
+.gender .lb {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.gender input {
+}
+.hobbies {
+  margin-right: 100px;
+}
+.hobbies .lb {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-top: 10px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.hobbies input {
+}
+.main-source {
+}
+.source-income {
+  margin-left: 100px;
+}
+.source-income label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+.source-income select {
+  padding: 4px 0;
+}
+.income {
+  margin-right: 180px;
+}
+.income label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+.income input.bt {
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+.main-up {
+}
+.upload {
+  margin-left: 100px;
+}
+.upload label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+.upload input {
+}
+.age {
+  margin-right: 202px;
+}
+.age label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+.age input {
+  width: 150px;
+  padding: 3px 5px;
+}
+.main-bio {
+  margin-left: 100px;
+}
+.main-bio label {
+  color: #2ecc71;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 15px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+.main-bio textarea {
+  width: 720px;
+  padding: 10px;
+}
+.main-btn {
+  text-align: right;
+  margin-top: 25px;
+}
+.main-btn button {
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+  color: #fff;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 93px;
+  margin-bottom: 30px;
+}

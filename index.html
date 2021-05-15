@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Create</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+<fieldset style="width: 60%; margin: auto;">
+    <legend> <h1>Sign Up</h1> </legend>
+<form action="#">
+    <div class="name clear">
+        <div class="first-name left">
+            <label for="fi">First name*</label> <br>
+            <input id="fi" type="text"  placeholder="Type your name"> 
+        </div>
+        <div class="last-name right">
+            <label for="la">Last name</label> <br>
+            <input id="la" type="text"  placeholder="Type your last name"> 
+
+        </div>
+    </div>
+    <div class="email">
+        <label for="em">Email:</label> <br>
+        <input id="em" type="email" placeholder="Type your email" >
+    </div>
+    <div class="main-password clear">
+        <div class="password left">
+            <label for="pp">Password:</label> 
+            <input placeholder="Type your password" id="pp" type="password">
+        </div>
+        <div class="confirm-password right">
+            <label for="cc">Confirm password*</label> 
+            <input placeholder="Type confirm password" id="cc"  type="password"> 
+        </div>
+    </div>
+    <div class="main-gender clear">
+        <div class="gender left">
+            <label class="lb" for="">Gender:</label> <br>
+            <input id="mm" type="radio" name='gender'> 
+            <label for="mm">Male</label>
+            <input id="fe" type="radio" name='gender'>
+            <label for="fe">Female</label>
+
+            <input id="oo" type="radio" name='gender'>
+            <label for="oo">Other</label>
+
+        </div>
+        <div class="hobbies right">
+          <label class="lb" for="">Hobbies</label> <br>
+          <input type="checkbox" name='check' id="mmn"> 
+          <label for="mmn">Music</label>
+          <input type="checkbox" name='check' id="mms"> 
+          <label for="mms">Sports</label>
+
+          <input type="checkbox" name='check' id="mmt"> 
+          <label for="mmt">Travel</label>
+         
+          <input type="checkbox" name='check' id="mmtm"> 
+          <label for="mmtm"> Movies</label>
+         
+           
+        </div>
+    </div>
+    <div class="main-source clear">
+        <div class="source-income left">
+            <label for="">Source of income</label>
+            <select name="" id="">
+                <option value="">Bangladesh</option>
+                <option value="">India</option>
+                <option value="">Others</option>
+            </select>
+        </div>
+        <div class="income right">
+            <label for="">Income</label> 
+            <input type="range"> <input class="bt" type="button" value="25k">
+        </div>
+    </div>
+    <div class="main-up clear">
+        <div class="upload left">
+            <label for="">Upload profile picture</label> 
+            <input type="file">
+        </div>
+        <div class="age right">
+            <label for="ag">Age</label> 
+            <input placeholder="Type your age" id="ag" type="number" min="18" max="50"> 
+        </div>
+    </div>
+    <div class="main-bio">
+        <label for="">Bio</label> 
+        <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="main-btn">
+        <button type="submit">Create</button>
+    </div>
+  
+</form>
+
+</fieldset>
+
+
+<br>
+    
+</body>
+</html>
